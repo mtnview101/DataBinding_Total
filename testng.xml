@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+	<test name="test">
+		<listeners>
+			<listener class-name="net.sf.testng.databinding.TestAnnotationTransformer" />
+		</listeners>
+		<groups>
+			<run>
+				<include name="csv" />
+				<include name="properties" />
+				<include name="xml" />
+				<include name="text" />
+				<include name="json" />
+			</run>
+		</groups>
+		<classes>
+			<class name="core.DBTest">
+				<methods>
+					<include name="testSumCSV" />
+					<include name="testSumProperties" />
+					<include name="testSumText" />
+					<include name="testSumXML" />
+					<include name="testSumJSON" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

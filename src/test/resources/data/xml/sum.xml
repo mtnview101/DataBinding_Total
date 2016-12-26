@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testData>
+    <dataSet>
+        <testInputData>
+            <x>1</x>
+            <y>2</y>
+        </testInputData>
+        <testOutputData>
+            <sum>3</sum>
+        </testOutputData>
+    </dataSet>
+    <dataSet>
+        <testInputData>
+            <x>-1</x>
+            <y>1</y>
+        </testInputData>
+        <testOutputData>
+            <sum>0</sum>
+        </testOutputData>
+    </dataSet>
+</testData>

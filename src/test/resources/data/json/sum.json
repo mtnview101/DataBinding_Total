@@ -1,0 +1,26 @@
+[
+  {
+    "testInput": {
+      "x": 2,"y": 4
+    },
+    "testOutput": {
+      "sum": 6
+    }
+  },
+  {
+    "testInput": {
+      "x": 1,"y": 1
+    },
+    "testOutput": {
+      "sum": 2
+    }
+  },
+  {
+    "testInput": {
+      "x": 2,"y": 2
+    },
+    "testOutput": {
+      "sum": 4
+    }
+  }
+]
